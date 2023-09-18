@@ -20,7 +20,10 @@ Studio.
 
 Here's a video of the simulation in action.
 
+[
 <video src='https://github.com/KorigamiK/AVR-Simulation/assets/72932688/408e631a-f917-4d1a-933b-8c289843fe24' width=180/>
+](https://user-images.githubusercontent.com/72932688/268768389-408e631a-f917-4d1a-933b-8c289843fe24.mp4
+)
 
 ## Requirements
 
