@@ -16,6 +16,12 @@ Studio.
 - `CmakePresets.json` contains the cmake presets for the `gcc-avr` toolchain.
 - `build/AVR` contains the build files for the simulation.
 
+## Demo
+
+Here's a video of the simulation in action.
+
+<video src='https://github.com/KorigamiK/AVR-Simulation/assets/72932688/408e631a-f917-4d1a-933b-8c289843fe24' width=180/>
+
 ## Requirements
 
 ### Arch Linux
