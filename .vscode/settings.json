@@ -1,0 +1,16 @@
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
+    "cmake.useCMakePresets": "always",
+    "files.associations": {
+        "*.css": "css",
+        "*.crawljob": "json",
+        ".gitignore": "ignore",
+        "*.asm": "assembly",
+        "PSPBUILD": "aur-pkgbuild",
+        "*.rmarkdown": "markdown",
+        "*.rmd": "markdown",
+        "*.m": "matlab",
+        "config": "jsonc",
+        "io.h": "c"
+    }
+}

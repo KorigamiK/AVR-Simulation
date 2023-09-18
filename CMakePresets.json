@@ -1,0 +1,27 @@
+{
+    "version": 2,
+    "configurePresets": [
+        {
+            "name": "AVR",
+            "displayName": "GCC 13.2.0 avr",
+            "description": "Using compilers: C = /usr/bin/avr-gcc, CXX = /usr/bin/avr-g++",
+            "binaryDir": "${sourceDir}/build/${presetName}",
+            "generator": "Ninja",
+            "cacheVariables": {
+                "CMAKE_INSTALL_PREFIX": "${sourceDir}/install/${presetName}",
+                "CMAKE_C_COMPILER": "/usr/bin/avr-gcc",
+                "CMAKE_CXX_COMPILER": "/usr/bin/avr-g++",
+                "CMAKE_BUILD_TYPE": "Debug"
+            }
+        }
+    ],
+    "buildPresets": [
+        {
+            "name": "flash-blink",
+            "configurePreset": "AVR",
+            "targets": [
+                "flash"
+            ]
+        }
+    ]
+}

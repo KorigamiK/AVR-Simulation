@@ -1,0 +1,8 @@
+<!DOCTYPE SimulIDE>
+
+<compiler name="CMake_avrgcc" type="avrgcc" buildPath="../build/AVR">
+    <step 
+        command="ninja"
+        arguments=" -C ../build/AVR"
+    />
+</compiler>
